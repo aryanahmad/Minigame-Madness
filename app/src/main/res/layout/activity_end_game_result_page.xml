@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EndGameResultPage">
+
+    <TextView
+        android:id="@+id/EndGameDifficultyTextView"
+        android:layout_width="185dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:textColor="#923AB7"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/EndGameDifficultyTitle"
+        app:layout_constraintTop_toBottomOf="@+id/resultsTitle2" />
+
+    <TextView
+        android:id="@+id/EndGameDifficultyTitle"
+        android:layout_width="187dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Difficulty:"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/EndGameDifficultyTextView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultsTitle2" />
+
+    <EditText
+        android:id="@+id/numIncorrectTitle"
+        android:layout_width="211dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Flip Card Score"
+        android:textColor="#F00710"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Level2ScoreTitle" />
+
+    <EditText
+        android:id="@+id/Level2ScoreTitle"
+        android:layout_width="211dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Math Game Score"
+        android:textColor="#11DD19"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Level1ScoreTitle" />
+
+    <EditText
+        android:id="@+id/Level1ScoreTitle"
+        android:layout_width="211dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Button Click Score"
+        android:textColor="#03A9F4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EndGameDifficultyTitle" />
+
+    <TextView
+        android:id="@+id/Level1ScoreTextView"
+        android:layout_width="183dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Level1ScoreTitle"
+        app:layout_constraintTop_toBottomOf="@+id/EndGameDifficultyTextView" />
+
+    <TextView
+        android:id="@+id/Level2ScoreTextView"
+        android:layout_width="183dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Level2ScoreTitle"
+        app:layout_constraintTop_toBottomOf="@+id/Level1ScoreTextView" />
+
+    <TextView
+        android:id="@+id/Level3ScoreTextView"
+        android:layout_width="183dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/numIncorrectTitle"
+        app:layout_constraintTop_toBottomOf="@+id/Level2ScoreTextView" />
+
+    <EditText
+        android:id="@+id/resultsTitle2"
+        android:layout_width="360dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:text="End Game Results"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="171dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="50dp"
+        android:background="#64DD17"
+        android:onClick="btnFinishFunc"
+        android:text="Finish"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numIncorrectTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

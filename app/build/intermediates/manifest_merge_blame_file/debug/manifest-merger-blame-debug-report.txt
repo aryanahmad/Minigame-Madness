@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.game"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:5:5-38:19
+12        android:allowBackup="true"
+12-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] /Users/aryanahmad/.gradle/caches/transforms-2/files-2.1/c0a39027978b83a483a047f5c31d0c4e/core-1.0.1/AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.game.UserHome.LevelSelectScreen" />
+20-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:12:9-73
+20-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:12:19-61
+21        <activity android:name="com.example.game.UserHome.CustomizationScreen" />
+21-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:13:9-66
+21-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:13:19-63
+22        <activity android:name="com.example.game.UserHome.HomePage" />
+22-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:14:9-55
+22-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:14:19-52
+23        <activity android:name="com.example.game.FlipCardGame.FlipCardView.FlipCardResultView" />
+23-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:15:9-82
+23-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:15:19-79
+24        <activity android:name="com.example.game.FlipCardGame.FlipCardInit" />
+24-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:16:9-63
+24-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:16:19-60
+25        <activity android:name="com.example.game.FlipCardGame.FlipCardView.FlipCardMainView" />
+25-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:17:9-80
+25-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:17:19-77
+26        <activity android:name="com.example.game.MathGame.MathGameResult" />
+26-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:18:9-61
+26-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:18:19-58
+27        <activity android:name="com.example.game.MathGame.MathGame" />
+27-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:19:9-55
+27-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:19:19-52
+28        <activity android:name="com.example.game.ButtonClickGame.ButtonClickMain" />
+28-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:20:9-69
+28-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:20:19-66
+29        <activity android:name="com.example.game.ButtonClickGame.ButtonClickResult" />
+29-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:21:9-71
+29-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:21:19-68
+30        <activity android:name="com.example.game.FlipCardGame.FlipCardView.FlipCardCustomizationView" />
+30-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:22:9-89
+30-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:22:19-86
+31        <activity android:name="com.example.game.ScoreBoard.ScoreBoard" />
+31-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:23:9-59
+31-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:23:19-56
+32        <activity android:name="com.example.game.LoginScreen.Startup" >
+32-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:24:9-30:20
+32-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:24:19-54
+33            <intent-filter>
+33-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:25:13-29:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:26:17-69
+34-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:28:17-77
+36-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:28:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.example.game.LoginScreen.MainActivity" >
+39-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:31:9-37:20
+39-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:31:19-59
+40            <intent-filter>
+40-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:25:13-29:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:26:17-69
+41-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:28:17-77
+43-->/Users/aryanahmad/AndroidStudioProjects/group_0558/phase1/app/src/main/AndroidManifest.xml:28:27-74
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>

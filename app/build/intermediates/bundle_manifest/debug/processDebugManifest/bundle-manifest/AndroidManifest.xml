@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.game"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.game.UserHome.LevelSelectScreen" />
+        <activity android:name="com.example.game.UserHome.CustomizationScreen" />
+        <activity android:name="com.example.game.UserHome.HomePage" />
+        <activity android:name="com.example.game.FlipCardGame.FlipCardView.FlipCardResultView" />
+        <activity android:name="com.example.game.FlipCardGame.FlipCardInit" />
+        <activity android:name="com.example.game.FlipCardGame.FlipCardView.FlipCardMainView" />
+        <activity android:name="com.example.game.MathGame.MathGameResult" />
+        <activity android:name="com.example.game.MathGame.MathGame" />
+        <activity android:name="com.example.game.ButtonClickGame.ButtonClickMain" />
+        <activity android:name="com.example.game.ButtonClickGame.ButtonClickResult" />
+        <activity android:name="com.example.game.FlipCardGame.FlipCardView.FlipCardCustomizationView" />
+        <activity android:name="com.example.game.ScoreBoard.ScoreBoard" />
+        <activity android:name="com.example.game.LoginScreen.Startup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.game.LoginScreen.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

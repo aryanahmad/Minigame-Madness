@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Spinner
+        android:id="@+id/difficultySpinner"
+        android:layout_width="136dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/difficultyTitle"
+        app:layout_constraintTop_toBottomOf="@+id/customizationTitle" />
+
+    <EditText
+        android:id="@+id/difficultyTitle"
+        android:layout_width="196dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pick a Difficulty"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customizationTitle" />
+
+    <TextView
+        android:id="@+id/customizationTitle"
+        android:layout_width="253dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="104dp"
+        android:background="#00FF6A"
+        android:gravity="center_horizontal"
+        android:text="Customizations"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/symbolTitle"
+        android:layout_width="224dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pick Symbol Types"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/difficultyTitle" />
+
+    <Spinner
+        android:id="@+id/symbolSpinner"
+        android:layout_width="160dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/symbolTitle"
+        app:layout_constraintTop_toBottomOf="@+id/difficultySpinner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

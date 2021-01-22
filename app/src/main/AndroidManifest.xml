@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.game">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UserHome.LevelSelectScreen"></activity>
+        <activity android:name=".UserHome.CustomizationScreen" />
+        <activity android:name=".UserHome.HomePage" />
+        <activity android:name=".FlipCardGame.FlipCardView.FlipCardResultView" />
+        <activity android:name=".FlipCardGame.FlipCardInit" />
+        <activity android:name=".FlipCardGame.FlipCardView.FlipCardMainView" />
+        <activity android:name=".MathGame.MathGameResult" />
+        <activity android:name=".MathGame.MathGame" />
+        <activity android:name=".ButtonClickGame.ButtonClickMain" />
+        <activity android:name=".ButtonClickGame.ButtonClickResult" />
+        <activity android:name=".FlipCardGame.FlipCardView.FlipCardCustomizationView" />
+        <activity android:name=".ScoreBoard.ScoreBoard" />
+        <activity android:name=".LoginScreen.Startup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginScreen.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
